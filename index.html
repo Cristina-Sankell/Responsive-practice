@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47cde46daf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Patagonia</title>
+</head>
+<body>
+    <header class="header">
+        <picture>
+            <source media="(max-width: 800px)" srcset="images/logo-2.svg">
+            <img class="logo" src="images/Logo.svg" alt="logo">
+        </picture>
+        <div class="menu">
+            <a class="menu__link" href="#">Works</a>
+            <a class="menu__link" href="#">Services</a>
+            <a class="menu__link" href="#">Contacts</a>
+        </div>
+        <div class="dropdown__menu">
+            <span>
+                <i class="fas fa-ellipsis-h"></i>
+            </span>
+            <div class="dropdown__items">
+                <a class="dropdown__link" href="#">Works</a>
+                <a class="dropdown__link" href="#">Services</a>
+                <a class="dropdown__link" href="#">Contacts</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1 class="title">Patagonia</h1>
+        <p class="text">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
+            Donec viverra eleifend lacus, vitae ullamcor.</p>
+        <picture>
+            <source media="(max-width: 360px)" srcset="images/horses-3.png">
+            <source media="(max-width: 800px)" srcset="images/horses-2.png">
+            <img class="main__image" src="images/horses-1.png" alt="horses">
+        </picture>
+    </main>
+</body>
+</html>
